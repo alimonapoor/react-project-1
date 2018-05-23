@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header , main , footer {
+  border: 5px solid;
+  padding: .5em;
+  margin: 20px;
+  font-size: 50px;
+
+}
+
+.header {
+  color: red;
+}
+
+.main {
+  color: green;
+
+}
+
+.footer {
+  color: blue;
+}
